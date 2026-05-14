@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kq-navy: #1a2b4c;
+  --color-kq-royal: #2563eb;
+  --color-kq-sky: #38bdf8;
+  --color-kq-yellow: #facc15;
+  --color-kq-orange: #fb923c;
+  --color-kq-red: #ef4444;
+  --color-kq-purple: #a855f7;
+  --color-kq-green: #22c55e;
+
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-kq-navy);
+  color: #1a2b4c;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800; /* ExtraBold */
+  letter-spacing: -0.02em;
+}
+
+.text-shadow-solid {
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+/* Custom pattern for side borders */
+.bg-pattern {
+  background-image: 
+    linear-gradient(45deg, var(--color-kq-royal) 25%, transparent 25%, transparent 75%, var(--color-kq-royal) 75%, var(--color-kq-royal)),
+    linear-gradient(45deg, var(--color-kq-royal) 25%, transparent 25%, transparent 75%, var(--color-kq-royal) 75%, var(--color-kq-royal));
+  background-color: var(--color-kq-sky);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+  opacity: 0.8;
+}
