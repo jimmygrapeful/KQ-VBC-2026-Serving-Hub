@@ -39,7 +39,7 @@ export const stationLocations = [
 
 export const snacks = [
   { day: "Monday", name: "Goldfish", items: "Goldfish crackers", note: "Goldfish may be served in individual bags or poured into cups since snack will not be served outside." },
-  { day: "Tuesday", name: "Jesus Walks on Water Snack", items: "Graham crackers, Teddy Grahams, and blue icing", note: "This snack will be used to connect with the Bible story of Jesus walking on water." },
+  { day: "Tuesday", name: "Jesus Walks on Water Snack", items: "Graham crackers, Teddy Grahams, and blue icing", note: "" },
   { day: "Wednesday", name: "Trail Mix", items: "Pretzels, Raisins, Ritz crackers, Marshmallows, M&Ms", note: "Trail mix will be pre-made before snack time." },
   { day: "Thursday", name: "Popcorn", items: "Popcorn", note: "" }
 ];
@@ -47,7 +47,7 @@ export const snacks = [
 export const safetyInfo = {
   guidelines: [
     "A dedicated safety team will be present on campus wearing orange vests.",
-    "Staff members can be identified by their mint green shirts.",
+    "Staff members can be identified by their green shirts.",
     "If you see anything unusual or concerning, report it immediately to a safety team member or a staff member."
   ],
   emergencies: [
@@ -55,7 +55,7 @@ export const safetyInfo = {
     { type: "Severe Weather", action: "Take your red evacuation bag and Check-In/Sign-In sheet. Building A classes move to nursery hallway/approved rooms. Building C classes move to rooms C8, C9, or restrooms. Sanctuary groups move to restrooms or front rooms. Stay away from windows." },
     { type: "Stranger on Campus", action: "Politely direct unfamiliar adults to Building D where someone can assist them. Never allow unauthorized adults to remain without an escort. Send a volunteer to alert a staff member." },
     { type: "Campus-Wide Evacuation", action: "Take your red evacuation bag and Check-In/Sign-In sheet. Walk your group safely to Worley Middle School across the parking lot. Keep children calm and together." },
-    { type: "Lost Child", action: "Quickly scan your area. Notify the nearest staff member in a MINT shirt immediately to initiate emergency protocol. Do not leave the rest of your group unsupervised." }
+    { type: "Lost Child", action: "Quickly scan your area. Notify the nearest staff member in a GREEN shirt immediately to initiate emergency protocol. Do not leave the rest of your group unsupervised." }
   ],
   injuries: [
     { type: "Minor injuries", action: "Bring the child to the nurse's station at the Check-in Desk in Building A. Fill out an 'Incident Report' and give it to staff." },

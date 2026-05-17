@@ -507,7 +507,7 @@ function AccordionItem({ title, children, defaultOpen = false }: any) {
     <div className="border-[3px] border-slate-800 rounded-2xl overflow-hidden shadow-[4px_4px_0px_rgba(30,41,75,1)] bg-white mb-4 transition-all">
       <button 
         onClick={() => setOpen(!open)}
-        className="w-full bg-slate-50 px-5 py-4 font-display font-black text-xl lg:text-2xl text-kq-navy font-black border-b-2 border-slate-200 flex justify-between items-center text-left hover:bg-slate-100 transition-colors"
+        className="w-full bg-white px-5 py-4 font-display font-black text-xl lg:text-2xl text-kq-navy font-black border-b-2 border-slate-200 flex justify-between items-center text-left hover:bg-slate-50 transition-colors"
       >
         <span>{title}</span>
         <ChevronDown size={24} className={cn("text-kq-navy transition-transform shrink-0 ml-4", open ? "rotate-180" : "")} />
@@ -543,7 +543,7 @@ function Safety() {
           <ul className="space-y-3">
             {[
               "Safety team members will wear orange vests.",
-              "Staff members can be identified by mint green shirts.",
+              "Staff members can be identified by green shirts.",
               "Report anything unusual or concerning right away to a safety team member or staff member.",
               "Never leave children unattended.",
               "Never go anywhere alone with a child. Always have a second volunteer with you.",
@@ -649,7 +649,7 @@ function Safety() {
             <ul className="list-disc pl-5 space-y-2">
               <li>Quickly scan your immediate area.</li>
               <li>Check behind doors, under tables, nearby rooms, and restrooms if appropriate.</li>
-              <li>Notify the nearest staff member in a mint green shirt immediately.</li>
+              <li>Notify the nearest staff member in a green shirt immediately.</li>
               <li>Do not leave the rest of your group unsupervised.</li>
               <li>Staff will begin emergency protocol.</li>
             </ul>
@@ -768,7 +768,7 @@ function Snacks() {
                 </ul>
               </div>
             </div>
-            <div className="bg-slate-50 p-4 rounded-xl border-2 border-slate-200 mt-4 text-sm font-semibold text-slate-700">
+            <div className="bg-slate-50 p-4 rounded-xl border-2 border-slate-200 mt-4 text-sm font-semibold text-slate-700 hidden">
                This snack connects with the Bible story of Jesus walking on water.
             </div>
           </div>
@@ -1216,7 +1216,7 @@ function Shepherds() {
                   <li>Your classroom</li>
                   <li>Their child's group</li>
                   <li>Drop-off and pick-up location</li>
-                  <li>Reminder to bring a water bottle and snack each day</li>
+                  <li>Reminder to bring a water bottle and snack if child has allergies each day</li>
                   <li>Reminder for kids to wear tennis shoes each day</li>
                 </ul>
               </div>

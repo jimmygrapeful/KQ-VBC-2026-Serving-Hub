@@ -111,7 +111,7 @@ export function Layout({ children }: { children: ReactNode }) {
         </main>
 
         {/* Footer */}
-        <footer className="bg-slate-50 border-t border-slate-200 p-8 text-center relative z-10 lg:pb-8 pb-28">
+        <footer className="bg-white border-t border-slate-200 p-8 text-center relative z-10 lg:pb-8 pb-28">
           <p className="font-extrabold text-slate-800">First Methodist Mansfield Kids</p>
           <p className="text-kq-royal font-display mt-2 text-xl tracking-tight">VBC 2026: Kingdom Quest</p>
         </footer>
